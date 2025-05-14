@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Button for Event Handling -->
+    <button id="changeTextButton">Click me!</button>
+
+    <!-- Hover effect section -->
+    <div class="hoverBox" id="hoverBox">Hover over me!</div>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="https://via.placeholder.com/150" alt="Image 1">
+        <img src="https://via.placeholder.com/150" alt="Image 2">
+        <img src="https://via.placeholder.com/150" alt="Image 3">
+    </div>
+
+    <!-- Tabs for Accordion-style content -->
+    <div class="tabs">
+        <button class="tabButton" data-content="content1">Tab 1</button>
+        <button class="tabButton" data-content="content2">Tab 2</button>
+        <button class="tabButton" data-content="content3">Tab 3</button>
+    </div>
+
+    <div class="tabContent" id="content1">
+        <p>This is content for Tab 1</p>
+    </div>
+    <div class="tabContent" id="content2">
+        <p>This is content for Tab 2</p>
+    </div>
+    <div class="tabContent" id="content3">
+        <p>This is content for Tab 3</p>
+    </div>
+
+    <!-- Form with validation -->
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
